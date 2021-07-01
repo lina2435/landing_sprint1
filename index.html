@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/helloworld.css">
+    <link rel="stylesheet" href="styles/origen.css">
+    <link rel="stylesheet" href="styles/temas.css">
+    <link rel="stylesheet" href="styles/invitadas.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;300;400;500;600&display=swap" rel="stylesheet">
+    <link href="/vendors/font-awesome/css/all.min.css" rel="stylesheet">
+    <script src="js/menu.js"></script>
+</head>
+
+<body class="base">
+    <!--empezar cabezera---->
+    <header class="header">
+        <img src="landing-imagenes/icons/logo.svg" class="logo" alt="">
+        <nav class="menu menu--desktop">
+            <ul>
+                <li class="head1">
+                    <a href="#section-podcast">Episodios</a>
+                </li>
+
+                <li class="head1">
+                    <a href="#nosotros">Nosotros</a>
+                </li>
+                <li class="head1">
+                    <a href="#entrevista">Entrevista</a>
+                </li>
+                <li class="head1">
+                    <a href="#topicos">Tópicos</a>
+                </li>
+            </ul>
+        </nav>
+        <div id="menu_icon_burguer" class="menu-icon" onclick="abrir_cerrar_menu()">
+            <!-- <i class="fas fa-bars"></i> -->
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                <g>
+                    <g>
+                        <path
+                            d="M492,236H20c-11.046,0-20,8.954-20,20c0,11.046,8.954,20,20,20h472c11.046,0,20-8.954,20-20S503.046,236,492,236z" />
+                    </g>
+                </g>
+                <g>
+                    <g>
+                        <path
+                            d="M492,76H20C8.954,76,0,84.954,0,96s8.954,20,20,20h472c11.046,0,20-8.954,20-20S503.046,76,492,76z" />
+                    </g>
+                </g>
+                <g>
+                    <g>
+                        <path d="M492,396H20c-11.046,0-20,8.954-20,20c0,11.046,8.954,20,20,20h472c11.046,0,20-8.954,20-20
+			C512,404.954,503.046,396,492,396z" />
+                    </g>
+                </g>
+                
+            </svg>
+        </div>
+        <div id="close_icon" onclick="abrir_cerrar_menu()">
+            <i class="fas fa-times"></i>
+        </div>
+    </header>
+    <div id="menu_mobile" class="menu menu--mobile">
+        <ul>
+            <li class="head1">
+                <a href="#section-podcast">Episodios</a>
+            </li>
+
+            <li class="head1">
+                <a href="#nosotros">Nosotros</a>
+            </li>
+            <li class="head1">
+                <a href="#entrevista">Entrevista</a>
+            </li>
+            <li class="head1">
+                <a href="#topicos">Tópicos</a>
+            </li>
+        </ul>
+    </div>
+    <section class="landing-section">
+        <div class="information">
+            <h1 class="title">
+                Hello <s>World</s> pale blue dot<span class="punto">.</span>
+            </h1>
+            <p class="parrafo1 parrafo1--desktop">
+                El portal de podcast que explora el mundo de la programación y la tecnologia. Nuevos Episodios, todos los jueves cada 15 dias.
+            </p>
+            <p class="parrafo1 parrafo1--mobile">
+                El portal de podcast que explora el mundo de la programación. Nuevos Episodios, todos los jueves cada 15 dias.
+            </p>
+            <a href="#" class="botton1"> Conocé Mas </a>
+        </div>
+
+
+    </section>
+    <!--empezar episodios---->
+
+    <section id="section-podcast">
+        <div class="clase-podcast">
+            <div class="landing-section">
+                <h2 class="titulo-podcast"> Episodios </h2>
+            </div>
+            <div class="open-podcast">
+                <div class="episode">
+                    <iframe src="https://open.spotify.com/embed/episode/58qAEGbGw4qJCyK6tFefbd?theme=0" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+                </div>
+                <div class="episode">
+                    <iframe src="https://open.spotify.com/embed/show/2ySVrxGkN6n6frMTo9Nsrt" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+                </div>
+                <div class="episode">
+                    <iframe src="https://open.spotify.com/embed/episode/2qMZk59zwh3upKbf2zk1vB" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+                </div>
+                <div class="episode">
+                    <iframe src="https://open.spotify.com/embed/episode/310htbRXiYHQUjBjx1K59X" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--empezar nosotros/origen---->
+    <section class="origen-contenedor" id="nosotros">
+        <div>
+            <img src="landing-imagenes/img/phone.png" class="img-origen" alt="">
+        </div>
+        <div class="origen-texto">
+            <h2 class="titulo-origen"> De dónde venimos </h2>
+            <div class="parrafo-origen">
+                Our posturings, our imagined self-importance, delusion that we have some privileged position in the Universe, are challenged by this point of pale light. Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness,
+                there is no hint that help will come from elsewhere to save us from ourselves.
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--empezar invitadas/entrevista---->
+
+    <section id="entrevista">
+        <div class="invitadas">
+            <h2 class="titulo-invitadas landing-section">Invitadas/os estelares</h2>
+            <div class="imagenes2">
+                <div>
+                    <img src="landing-imagenes/img/grace-hopper.png" alt="">
+                </div>
+                <div>
+                    <img src="landing-imagenes/img/Katie-Bouman.png" alt="">
+                </div>
+                <div>
+                    <img src="landing-imagenes/img/Margaret_Hamilton.png" alt="">
+                </div>
+                <div>
+                    <img src="landing-imagenes/img/An E.R.A.Univac 1103 computer in the 1950s.png" alt="">
+                </div>
+                <div>
+                    <img src="landing-imagenes/img/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png" alt="">
+                </div>
+                <div>
+                    <img src="landing-imagenes/img/susan-kare.png" alt="">
+                </div>
+            </div>
+    </section>
+
+    <!--empezar temas---->
+    <section class="temas landing-section" id="topicos">
+        <h2 class="titulo-temas">Algunos de nuestros temas</h2>
+        <div class="iconos-temas">
+            <div>
+                <img src="landing-imagenes/icons/icon1.svg" alt="">
+                <h3>
+                    Trabajo remoto
+                </h3>
+            </div>
+            <div>
+                <img src="landing-imagenes/icons/icon2.svg" alt="">
+                <h3>
+                    Repensando la programación
+                </h3>
+            </div>
+            <div>
+                <img src="landing-imagenes/icons/icon3.svg" alt="">
+                <h3>
+                    Bases del código
+                </h3>
+            </div>
+            <div>
+                <img src="landing-imagenes/icons/icon4.svg" alt="">
+                <h3>
+                    Seguridad informática
+                </h3>
+
+            </div>
+        </div>
+    </section>
+
+    <!--empezar novedades---->
+    <div class="novedades ">
+        <h2>
+            ¿Querés las últimas novedades?
+        </h2>
+        <a href="#"> <button class="bottonn-novedades">ESCUCHÁ LOS EPISODIOS</button></a>
+
+    </div>
+    <!--empezar footer---->
+    <section class="footer-end">
+        <p class="parrafo-footer">
+            © 2019— Hello blue pale dot
+        </p>
+        <div class="img-footer">
+            <div>
+                <a href="https://www.spotify.com" target="_blank">
+                    <i class="fab fa-spotify"></i>
+                </a>
+
+            </div>
+            <div>
+                <a href="https://www.instagram.com/?hl=es-la" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+            </div>
+            <div>
+                <a href="https://twitter.com/?lang=es" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+            <div>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </div>
+            <div>
+                <a href="https://web.telegram.org/z/" target="_blank">
+                    <i class="fab fa-telegram"></i>
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+</body>
+
+</html>

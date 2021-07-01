@@ -1,0 +1,43 @@
+/* podcast inicio */
+
+.open-podcast {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+    .open-podcast {
+        flex-direction: column;
+    }
+}
+
+.open-podcast .episode {
+    flex: 0 0 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#section-podcast {
+    clip-path: polygon(0 60px, 120% 0, 100% calc(100% - 50px), 0 100%);
+    background: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    padding-top: 60px;
+    padding-bottom: 140px;
+    margin-bottom: -100px;
+}
+
+.titulo-podcast {
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    font-family: "IBM Plex Sans";
+    font-weight: 400;
+}
+
+.clase-podcast {
+    width: 100%;
+    margin: auto;
+    max-width: 1100px;
+    padding-left: 10px;
+}
