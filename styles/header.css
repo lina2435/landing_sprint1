@@ -82,7 +82,7 @@
         flex: 0 0 100%;
         transition: all 0.5s ease;
     }
-    .menu-mb:: ::-webkit-scrollbar {
+    .menu-mb::-webkit-scrollbar {
         display: none;
     }
     .burger,
